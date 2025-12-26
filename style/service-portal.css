@@ -1,0 +1,325 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+.page-width{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portal-head {
+    background: #bd1b24;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.portal-head .head-left img,
+.portal-head .head-right img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.portal-head .head-center img {
+    width: 100%;
+    height: auto;
+}
+
+.portal-banner{
+    padding-top: 8rem;
+}
+.portal-banner .banner-content{
+    text-align: center;
+    padding: 2rem;
+    background: #bd1b24;
+    border-radius: 8px;
+    margin: 2rem 0;
+    width: 100%;
+}
+.portal-banner .banner-content h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.portal-banner .banner-content div span{
+    font-size: 36px;
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.portal-banner .banner-content p{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #fff;
+}
+.portal-banner .banner-image{
+    width: 100%;
+    height: auto;
+}
+
+.portal-href .href-item{
+    text-align: center;
+    padding: 2rem;
+    background: #bd1b24;
+    border-radius: 8px;
+    margin: 2rem 0;
+    width: 100%;
+}
+.portal-href .href-item h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.portal-href .href-item p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.portal-href .href-item a{
+    font-size: 18px;
+    color: #bd1b24;
+    text-decoration: none;
+    background: #fff;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.portal-Bike-Angel,
+.portal-Bike-Service-Portal{
+    padding-top: 106px;
+}
+.portal-Bike-Angel .angel-banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.angel-content{
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin: 2rem 0;
+    width: 100%;
+}
+.angel-content h4{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.angel-content p{
+    font-size: 18px;
+}
+.angel-content p a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #fff;
+    color: #bd1b24;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+.bg-colorbd1b24{
+    background: #bd1b24;
+}
+.bg-colorbd1b24 h4{
+    color: #fff;
+}
+.bg-colorbd1b24 p{
+    color: #fff;
+}
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    align-items: normal;
+}
+.flex-content .angel-content{
+    width: 49%;
+    margin: 1rem 0;
+}
+.contact-btn {
+    text-align: center;
+}
+.contact-btn a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #fff;
+    color: #bd1b24;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+.angel-contact{
+    padding: 2rem;
+    background: #bd1b24;
+    border-radius: 8px;
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contact-left{
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 50%;
+}
+.contact-left h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #222
+}
+.contact-left p{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    color: #222;
+}
+.contact-left p a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #bd1b24;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.contact-right {
+    width: 42%;
+}
+.contact-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.flex-normal{
+    align-items: normal;
+    padding: 2rem 0;
+}
+.accordion-section{
+    background: #bd1b24;
+    margin: 3rem 0;
+}
+.accordion-left,
+.accordion{
+    background: #fff;
+}
+.accordion-left{
+    width: 30%;
+    padding: 2rem;
+}
+.accordion-left h3{
+    font-size: 32px;
+}
+.accordion{
+    width: 65%;
+}
+.accordion-button:not(.collapsed){
+    color: #bd1b24;
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 0 0 #bd1b24;
+}
+.accordion-button{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portal-Bike-Service-Portal .angel-banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portal-Solution{
+    padding: 4rem 0;
+}
+.solution-sub-title {
+    color: #bd1b24;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.Solution-info h2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.solution-content{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.dealer-section{
+    background: #e5e5e5;
+    padding: 5rem 0;
+}
+.dealer-left h4{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.dealer-btn a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #bd1b24;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.right-content{
+    background: #fff;
+    padding: 2rem 2rem 5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 24px 72px -12px rgba(0, 0, 0, 0.12);
+}
+.mask-info{
+    height: 100%;
+    background: #fff;
+    padding: 2rem 2rem 5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 24px 72px -12px rgba(0, 0, 0, 0.12);
+}
+.mask-info p{
+    margin-bottom: 2rem;
+}
+.mb-10{
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 789px) {
+    html,body { overflow-x: hidden; }
+    .portal-Bike-Angel, .portal-Bike-Service-Portal{ padding-top: 50px; }
+    .portal-head .head-left img, .portal-head .head-right img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .portal-banner{ padding-top: 3rem; }
+    .portal-banner .banner-content h2{ font-size: 24px;  }
+    .portal-banner .banner-content div span{ font-size: 24px; }
+    .portal-banner .banner-content p{ font-size: 16px; }
+    .flex-content{ flex-wrap: wrap; }
+    .flex-content .angel-content { width: 100%; }
+    .contact-left, .contact-right { width: 100%; }
+    .contact-left { margin-bottom: 2rem; }
+    .accordion-left, .accordion { width: 100%; }
+    .accordion-left { margin-bottom: 2rem; }
+    .Solution-info h2 { font-size: 36px; }
+    .hide{ display: none; }
+    .dealer-left{ margin-bottom: 2rem; }
+    .mb-50 { margin-bottom: 2rem; }
+    .mb-10{ margin-bottom: 0; }
+    .angel-content{ padding: 2rem; }
+    .angel-content h4{ font-size: 24px; }
+    .angel-content p{ font-size: 16px; }
+    .contact-btn a{ padding: 5px 1rem; }
+    .contact-left p a{ padding: 5px 1rem; }
+    .angel-content p a{ padding: 5px 1rem; }
+    .portal-href .href-item h2{ font-size: 24px; }
+    .portal-href .href-item p{ font-size: 16px; }
+    .portal-href .href-item a{ font-size: 14px; }
+}

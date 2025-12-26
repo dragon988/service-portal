@@ -1,0 +1,16 @@
+https://michalsnik.github.io/aos/
+
+初始化插件效果：
+	<script>
+		AOS.init();
+	</script>
+
+
+效果类名：
+	data-aos="fade-left"
+	data-aos="fade-right"
+	data-aos="fade-up"
+	data-aos="fade-down"
+	data-aos="fade-up/down-left/right"
+
+	data-aos-delay="动画时间(100)"
