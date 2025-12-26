@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6, p{
     height: 80px;
     border-radius: 50%;
 }
+.portal-head .head-center span{
+    color: #fff;
+}
 .portal-head .head-center img {
     width: 100%;
     height: auto;
@@ -329,4 +332,5 @@ h1, h2, h3, h4, h5, h6, p{
     .portal-href .href-item p{ font-size: 16px; }
     .portal-href .href-item a{ font-size: 14px; }
 }
+
 
